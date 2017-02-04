@@ -3,11 +3,11 @@ defmodule PersistentStorage.Mixfile do
 
   def project do
     [app: :persistent_storage,
-     version: version,
+     version: version(),
      elixir: "~> 1.0",
      source_url: "https://github.com/cellulose/persistent_storage",
      homepage_url: "http://cellulose.io",
-     deps: deps]
+     deps: deps()]
   end
 
   defp deps do
